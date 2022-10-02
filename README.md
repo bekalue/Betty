@@ -27,3 +27,13 @@ betty-style file1 [file2 [file3 [...]]]
 ```ShellSession
 betty-doc file1 [file2 [file3 [...]]]
 ```
+## Betty linter
+To run the Betty linter just with command betty <filename>:
+
+Go to the Betty repository
+Clone the repo to your local machine
+cd into the Betty directory
+Install the linter with sudo ./install.sh
+Move the betty.sh file into </bin/> directory or somewhere else in your <$PATH> with <sudo mv betty /bin/>
+You can now type betty <filename> to run the Betty linter!
+
